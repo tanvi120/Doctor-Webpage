@@ -1,0 +1,115 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    header {
+        width: 100%;
+        height: 100vh;
+        background-image: url('design1.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    
+    .mainheader {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0px;
+    }
+    
+    .mainheader .logo img {
+        width: 280px;
+        height: 130px;
+    }
+    
+    .mainheader nav {
+        width: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .mainheader nav a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+    
+    .mainheader nav a:hover {
+        color: rgb(48, 106, 130);
+    }
+    
+    .mainheader button {
+        padding: 20px;
+        text-align: center;
+        border: none;
+        font-size: medium;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(28, 112, 180), rgb(89, 198, 235));
+        border-radius: 30px;
+        margin-right: 50px;
+    }
+    
+    .mainheader button:hover {
+        background-image: linear-gradient(rgb(28, 107, 180), rgb(21, 82, 118));
+    }
+    
+    main {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    main .right img {
+        padding-right: 20px;
+        width: 40em;
+    }
+    
+    main .left {
+        padding-left: 100px;
+    }
+    
+    .left h4 {
+        font-size: 20px;
+        text-transform: capitalize;
+        font-weight: lighter;
+        color: rgb(24, 24, 24);
+        margin-top: 15px;
+    }
+    
+    .left h1 {
+        font-size: 35px;
+        text-transform: capitalize;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin-top: 15px;
+    }
+    
+    .left p {
+        font-size: 15px;
+        text-transform: capitalize;
+        font-weight: lighter;
+        color: rgb(0, 0, 0);
+        margin-top: 15px;
+    }
+    
+    .left button {
+        padding: 20px;
+        text-align: center;
+        border: none;
+        font-size: medium;
+        color: aliceblue;
+        background-image: linear-gradient(rgb(28, 112, 180), rgb(89, 198, 235));
+        border-radius: 30px;
+        margin-top: 30px;
+    }
+    
+    .left button:hover {
+        background-image: linear-gradient(rgb(28, 107, 180), rgb(21, 82, 118));
+    }
